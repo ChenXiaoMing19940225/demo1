@@ -1,0 +1,7 @@
+test:
+  user:
+    name: zhangsan
+    age: 12
+    sex: male
+
+
