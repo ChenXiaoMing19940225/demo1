@@ -3,5 +3,5 @@ package entity;
 public class test1Entity {
     private String id;
     private String name;
-    private String age;
+    private String sex;
 }
