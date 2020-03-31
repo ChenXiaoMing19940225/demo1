@@ -33,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/entity/testEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,6 +105,7 @@
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/testController.java" />
         <option value="$PROJECT_DIR$/demo-EurekaServer/src/main/resources/application-hello.yml" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/entity/testEntity.java" />
       </list>
     </option>
   </component>
@@ -268,15 +269,28 @@
       <option name="project" value="LOCAL" />
       <updated>1585661892591</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DemoUnfinished">
+      <created>1585665491144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585665491144</updated>
+    </task>
+    <task id="LOCAL-00006" summary="DemoUnfinished">
+      <created>1585665580933</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585665580933</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Repositories" weight="0.32995737" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,10 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/entity/testEntity.java">
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="374">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -560,10 +574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java">
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/entity/testEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
