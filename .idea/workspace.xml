@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa474040-5a62-4780-a631-06377912371c" name="Default Changelist" comment="DemoUnfinished">
+    <list default="true" id="fa474040-5a62-4780-a631-06377912371c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/target/classes/entity/testEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/target/test-classes/jdk18/lamdaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/target/test-classes/jdk18/person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/target/test-classes/jdk18/testInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/target/test-classes/jdk18/testInterfaceFive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/target/test-classes/jdk18/testInterfaceFour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/target/test-classes/jdk18/testInterfaceOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/target/test-classes/jdk18/testInterfaceThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/target/test-classes/jdk18/testInterfaceTwo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/testController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/lamdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/lamdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-EurekaClient/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-EurekaClient/target/classes/com/demo/controller/test1Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/target/classes/com/demo/controller/test1Controller.class" afterDir="false" />
     </list>
@@ -76,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/lamdaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            <state relative-caret-position="398">
+              <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -114,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state relative-caret-position="408">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -172,9 +181,9 @@
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/entity/test1Entity.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/testController.java" />
-        <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/person.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/lamdaTest.java" />
+        <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java" />
       </list>
     </option>
   </component>
@@ -418,8 +427,24 @@
       <option name="project" value="LOCAL" />
       <updated>1585667324423</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="DemoUnfinished">
+      <created>1586098980369</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586098980369</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -434,11 +459,11 @@
       <window_info id="Repositories" order="7" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30010834" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30010834" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.4512987" />
@@ -745,6 +770,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/lamdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -762,23 +804,6 @@
             <element signature="e#552#553#0" expanded="true" />
             <element signature="e#590#591#0" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/lamdaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

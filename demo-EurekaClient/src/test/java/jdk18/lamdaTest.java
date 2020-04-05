@@ -60,7 +60,7 @@ public class lamdaTest{
         // 使用lambda表达式进行过滤
         List<person> lt=new ArrayList<>();//构造一个初始list
         Collections.addAll(lt,new person("张三","male","15"),new person("李四","male","15"));
-        List<person> persons = lamdaTest.filterPerson(lt,(p)->p.getName().equals("张三"));
+        List<person> persons = lamdaTest.filterPerson(lt,p->p.getName().equals("张三"));
         for (person per:persons) {
             System.out.println(per.getName()+"=="+per.getSex()+"=="+per.getAge());
         }

@@ -22,6 +22,7 @@ interface testInterfaceFour{
     person getFoodFour(String name,String sex,String age);
 }
 //过滤接口
+@FunctionalInterface
 interface testInterfaceFive<T>{
     boolean test(T t);
 }
