@@ -3,15 +3,21 @@ package jdk18;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class lamdaTest{
     public static void main(String[] args){
         //开启一个线程
         new Thread(()->{
-            for(int i=0;i<10;i++){
+            for(int i=0;i<2;i++){
                 System.out.println("测试");
             }
         }).start();
+        //使用Callable接口开启一个线程
+
 
 
         //有返回值无参声明式函数接口
@@ -65,6 +71,34 @@ public class lamdaTest{
             System.out.println(per.getName()+"=="+per.getSex()+"=="+per.getAge());
         }
 
+
+
+        // jdk1.8提供了四大函数式接口
+        // 1、供给形接口 无参有返回值
+        supplierTest(()-> {
+            System.out.println("supplier");
+            return "supplier";
+        });
+
+        // 2.Consumer 《T》：消费型接口，有参无返回值
+        consumerTest("consumer",str->System.out.println(str));
+
+        // 3.Function 《T,R》：:函数式接口，有参有返回值
+        functionTest("function",str->{
+            person p=new person();
+            p.setName(str);
+            System.out.println(p.getName());
+            return p;
+
+        });
+        // 4.Predicate《T》： 断言型接口，有参有返回值，返回值是boolean类型
+        System.out.println(perdicateTest("predicate",str->{
+            boolean bool=false;
+            if (str==new String("predicate")){
+                bool=true;
+            }
+            return bool;
+        }));
     }
 
       //声明一个与接口中一模一样的实现方法
@@ -76,12 +110,23 @@ public class lamdaTest{
       public static List<person> filterPerson(List<person> list,testInterfaceFive<person> test){
           List<person> prods=new ArrayList<>();
           for (person p:list) {
-              if (test.test(p)){
+              if (test.test(p)){ //这里的具体的接口实现逻辑由lambda传入参数决定
                   prods.add(p);
               }
           }
           return prods;
       }
-
+      public static void supplierTest(Supplier<String> supplier){
+          supplier.get();
+      }
+      public static void consumerTest(String str, Consumer<String> consumer){
+          consumer.accept(str);
+      }
+      public static void functionTest(String str, Function<String,person> function){
+           function.apply(str);
+      };
+      public static boolean perdicateTest(String str, Predicate<String> predicate){
+           return predicate.test(str);
+      };
 
 }
