@@ -26,3 +26,14 @@ interface testInterfaceFour{
 interface testInterfaceFive<T>{
     boolean test(T t);
 }
+//jdk1.8中能包含default方法和static方法
+//如果一个类实现了该接口则该类可以不重写test2()
+interface testSix{
+    void test();
+    static void test1() {
+        System.out.println("test1");
+    }
+    default void test2(){
+        System.out.println("test2");
+    }
+}

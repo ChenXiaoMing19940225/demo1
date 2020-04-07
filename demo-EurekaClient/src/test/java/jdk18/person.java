@@ -1,6 +1,9 @@
 package jdk18;
 
-public class person {
+import java.io.Serializable;
+
+public class person implements Serializable {
+    private static final long serialVersionUID = -832864699948294613L;
     String name;
     String sex;
     String age;

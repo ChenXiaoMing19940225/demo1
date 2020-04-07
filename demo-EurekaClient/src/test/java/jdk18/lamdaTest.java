@@ -7,6 +7,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 
 public class lamdaTest{
     public static void main(String[] args){
@@ -71,11 +72,13 @@ public class lamdaTest{
             System.out.println(per.getName()+"=="+per.getSex()+"=="+per.getAge());
         }
 
-
+         final int i=0;
 
         // jdk1.8提供了四大函数式接口
         // 1、供给形接口 无参有返回值
+        // lambda只能引用外部的final类型的变量（不能修改其值）
         supplierTest(()-> {
+            System.out.println(i);
             System.out.println("supplier");
             return "supplier";
         });
@@ -99,7 +102,34 @@ public class lamdaTest{
             }
             return bool;
         }));
+
+        //StreamApi
+        System.out.println("顺序流："+list.stream().collect(Collectors.toList())); //转换为数组
+        System.out.println("并行流："+list.parallelStream().collect(Collectors.toList())); //转换为数组
+        list.stream().forEach(System.out::println); //foreach遍历元素
+
+        //jkd1.8中方法中接口方法的调用 静态方法只能通过接口对象静态调用 其他方法（抽象方法的default方法)可以通过接口的实例来调用 类似于Runnable接口
+       testSix.test1();
+       testSix testSix=new testSix() {
+           @Override
+           public void test() {
+
+           }
+       };
+       testSix.test();
+       testSix.test2();
+
+
+
+
+
+
     }
+
+
+
+
+
 
       //声明一个与接口中一模一样的实现方法
       public static String getFoodThree(String str,String str1){
