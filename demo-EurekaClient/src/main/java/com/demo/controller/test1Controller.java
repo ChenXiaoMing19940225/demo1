@@ -26,5 +26,5 @@ public class test1Controller {
     public String getInfo(){
         return "name:"+name+"age:"+age;
     }
-    //this is my branch
+    //master
 }
