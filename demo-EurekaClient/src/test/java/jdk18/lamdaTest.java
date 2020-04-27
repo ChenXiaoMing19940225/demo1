@@ -1,8 +1,7 @@
 package jdk18;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import javax.swing.text.html.Option;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -14,10 +13,10 @@ public class lamdaTest{
         //开启一个线程
         new Thread(()->{
             for(int i=0;i<2;i++){
-                System.out.println("测试");
+                System.out.println("测试"+Thread.currentThread().getName());
             }
         }).start();
-        //使用Callable接口开启一个线程
+        //使用Callable接口开启i个线程
 
 
 
@@ -118,11 +117,6 @@ public class lamdaTest{
        };
        testSix.test();
        testSix.test2();
-
-
-
-
-
 
     }
 
