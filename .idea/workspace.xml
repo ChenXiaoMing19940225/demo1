@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa474040-5a62-4780-a631-06377912371c" name="Default Changelist" comment="">
+    <list default="true" id="fa474040-5a62-4780-a631-06377912371c" name="Default Changelist" comment="新增jkd1.8新特性测试&#10;(1、lambda表达式&#10; 2、::的使用&#10; 3、接口中default &amp; static关键字的使用&#10; 4、stream流的使用)">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/Util/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/domController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-EurekaClient/demoEurekaClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/demoEurekaClient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-EurekaClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-EurekaClient/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-EurekaClient/target/classes/com/demo/controller/test1Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-EurekaClient/target/classes/com/demo/controller/test1Controller.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/myThread/vectorUnsafeExample.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/domController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="340">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,44 +40,43 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/lamdaTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/Util/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="186">
+              <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java">
+        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/clientApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/myThread/threadUnsafeExample.java">
+        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/myExecutor/myExecutor.java">
+        <entry file="file://$PROJECT_DIR$/demo-EurekaClient/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -92,18 +100,18 @@
     <option name="ONTO" value="refs/remotes/origin/master" />
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="2020-3-31" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo-EurekaClient/pom.xml" />
         <option value="$PROJECT_DIR$/demo-EurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/clientApp.java" />
         <option value="$PROJECT_DIR$/demo-EurekaServer/src/main/java/serverApp.java" />
@@ -122,11 +130,17 @@
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/testController.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/person.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java" />
-        <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/myThread/vectorUnsafeExample.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/lamdaTest.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/myThread/threadUnsafeExample.java" />
         <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/myExecutor/myExecutor.java" />
+        <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java" />
+        <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/dom/test1.java" />
+        <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/dom/closeExe.java" />
+        <option value="$PROJECT_DIR$/demo-EurekaClient/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-EurekaClient/src/test/java/dom/test.java" />
+        <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/domController.java" />
+        <option value="$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/Util/test.java" />
       </list>
     </option>
   </component>
@@ -149,6 +163,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,14 +188,14 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo-EurekaClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo-EurekaClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,44 +203,24 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo-EurekaClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk18" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo-EurekaClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk18" type="462c0819:PsiDirectoryNode" />
-              <item name="testInterface.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-EurekaClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myExecutor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-EurekaClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myThread" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,14 +229,17 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workSpace\demo\demo-EurekaClient\src\main\java" />
+      <recent name="D:\workSpace\demo\demo-EurekaClient\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.controller.Util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workSpace\demo\demo-EurekaServer\src\main\resources" />
       <recent name="D:\workSpace\demo\demo-EurekaClient\src\main\java\com\demo\controller" />
       <recent name="D:\workSpace\demo\demo-EurekaClient\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workSpace\demo\demo-EurekaClient\src\main\java" />
-      <recent name="D:\workSpace\demo\demo-EurekaClient\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,23 +254,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lamdaTest">
+  <component name="RunManager" selected="Application.clientApp">
     <configuration name="clientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="clientApp" />
       <module name="demoEurekaClient" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lamdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdk18.lamdaTest" />
-      <module name="demoEurekaClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,6 +268,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="myExecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dom.test" />
+      <module name="demoEurekaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lamdaTest" />
-        <item itemvalue="Application.myExecutor" />
-        <item itemvalue="Application.threadUnsafeExample" />
-        <item itemvalue="Application.vectorUnsafeExample" />
         <item itemvalue="Application.clientApp" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.vectorUnsafeExample" />
+        <item itemvalue="Application.threadUnsafeExample" />
+        <item itemvalue="Application.myExecutor" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +330,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fa474040-5a62-4780-a631-06377912371c" name="Default Changelist" comment="" />
-      <changelist id="71f1ad02-5d83-4986-8138-be6bee2a9622" name="新增jkd1.8新特性测试 (1、lambda表达式  2、::的使用  3、接口中default &amp; static关键字的使用  4、stream流的使用)" comment="" />
       <created>1585054892120</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -456,7 +454,42 @@
       <option name="project" value="LOCAL" />
       <updated>1587994242882</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="新增jkd1.8新特性测试&#10;(1、lambda表达式&#10; 2、::的使用&#10; 3、接口中default &amp; static关键字的使用&#10; 4、stream流的使用)">
+      <created>1587995682477</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587995682477</updated>
+    </task>
+    <task id="LOCAL-00019" summary="新增jkd1.8新特性测试&#10;(1、lambda表达式&#10; 2、::的使用&#10; 3、接口中default &amp; static关键字的使用&#10; 4、stream流的使用)">
+      <created>1587995871871</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587995871871</updated>
+    </task>
+    <task id="LOCAL-00020" summary="新增jkd1.8新特性测试&#10;(1、lambda表达式&#10; 2、::的使用&#10; 3、接口中default &amp; static关键字的使用&#10; 4、stream流的使用)">
+      <created>1587998161653</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1587998161653</updated>
+    </task>
+    <task id="LOCAL-00021" summary="新增jkd1.8新特性测试&#10;(1、lambda表达式&#10; 2、::的使用&#10; 3、接口中default &amp; static关键字的使用&#10; 4、stream流的使用)">
+      <created>1587998289400</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1587998289400</updated>
+    </task>
+    <task id="LOCAL-00022" summary="新增jkd1.8新特性测试&#10;(1、lambda表达式&#10; 2、::的使用&#10; 3、接口中default &amp; static关键字的使用&#10; 4、stream流的使用)">
+      <created>1587998611884</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1587998611884</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -471,25 +504,25 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49071208" visible="true" weight="0.195629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49071208" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" sideWeight="0.50928795" side_tool="true" weight="0.18923241" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="SVN Repositories" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3008658" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2112676" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.13651137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.45178765" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.42686892" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="SVN Repositories" order="11" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -673,20 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-EurekaServer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -729,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/clientApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -757,36 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/clientApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/testController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -797,10 +783,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/entity/test1Entity.java">
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/entity/test1Entity.java" />
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/myThread/vectorUnsafeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/lamdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/jdk18/testInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/myThread/threadUnsafeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/myExecutor/myExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/dom/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/tree/DefaultDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/test1Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/dom/closeExe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/test/java/dom/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/clientApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/domController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-EurekaClient/src/main/java/com/demo/controller/Util/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
         </state>
       </provider>
     </entry>
