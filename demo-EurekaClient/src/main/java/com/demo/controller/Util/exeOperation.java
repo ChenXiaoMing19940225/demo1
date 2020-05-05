@@ -137,7 +137,7 @@ public class exeOperation {
             if(process != null){
                 int extValue = process.waitFor(); //返回码 0 表示正常退出 1表示异常退出
                 if(0 == extValue){
-                    System.out.println("Shell命令执行完毕");
+                    System.out.println("cmd启动进程命令执行完毕");
                     return true;
                 }
             }
@@ -180,7 +180,7 @@ public class exeOperation {
             if(process != null){
                 int extValue = process.waitFor(); //返回码 0 表示正常退出 1表示异常退出
                 if(0 == extValue){
-                    System.out.println("Shell命令执行完毕");
+                    System.out.println("Shell启动脚本命令执行完毕");
                     return true;
                 }
             }
