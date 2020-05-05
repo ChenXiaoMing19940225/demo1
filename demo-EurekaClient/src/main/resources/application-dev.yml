@@ -5,3 +5,20 @@ test:
     sex: male
 
 
+exeInfo:
+  config:
+  #配置文件的路径
+    windows:
+      filePath: F:\powerRouter\routerConfig.xml
+  #windows下exe的名称
+      nameString: PowerRouter.exe
+  #windows下exe所在文件夹
+      workPath: F:\powerRouter
+  #windows下exe文件路径
+      fullPath: F:\powerRouter\powerRouter.exe
+    linux:
+      filePathOfLinux: /home/powerRouter/routerConfig.xml
+      nameStringOfLinux: PowerRouter
+      fullPathOfLinux: /home/PowerRouter.sh
+      workPathOfLinux: /home/
+

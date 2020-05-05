@@ -21,7 +21,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
 public class test {
     public static void main(String []args){
 //      test.add(insert("C:\\Users\\Administrator\\Desktop\\新建文件夹\\books.xml"));
-        getchild(insert("C:\\Users\\Administrator\\Desktop\\新建文件夹\\books.xml"));
+//       getchild(insert("C:\\Users\\Administrator\\Desktop\\新建文件夹\\books.xml"));
     }
 
     //添加节点
@@ -39,30 +39,14 @@ public class test {
      public static void add(Document document){
          Element root = document.getRootElement();
 
-         Element myElement= root.addElement("tabchen");
-         myElement.addAttribute("age","25"); //当前节点添加属性
-         myElement.addAttribute("name","chenxiaoming");
-         myElement.addAttribute("sex","26");
-         myElement.addElement("child1").setText("child1"); //添加子节点并设置字符串内容
+         Element myElement= root.addElement("Router");
+         myElement.addAttribute("name","test"); //当前节点添加属性
+         myElement.addAttribute("listenPort","6666");
+         myElement.addAttribute("enable","True");
+         //添加子节点并设置字符串内容
+         //myElement.addElement("child1").setText("child1");
 
-         OutputFormat format = OutputFormat.createPrettyPrint();
-//         OutputFormat format = OutputFormat.createCompactFormat();//紧凑的格式（全部弄到一行）
-         OutputStream os = null;
-         try {
-             os = new FileOutputStream("C:\\Users\\Administrator\\Desktop\\新建文件夹\\books.xml");
-             XMLWriter xmlWriter = null;   //有中文使用formant格式
-             try {
-                 xmlWriter = new XMLWriter(os,format);
-                 xmlWriter.write(document);
-                 xmlWriter.close();
-             } catch (Exception e) {
-                 e.printStackTrace();
-             }
-
-
-         } catch (FileNotFoundException e) {
-             e.printStackTrace();
-         }
+        writeXml.writeXml(document);
 
      }
 
@@ -84,24 +68,7 @@ public class test {
          System.out.println(element);
         }
 
-         OutputFormat format = OutputFormat.createPrettyPrint();
-//         OutputFormat format = OutputFormat.createCompactFormat();//紧凑的格式（全部弄到一行）
-         OutputStream os = null;
-         try {
-             os = new FileOutputStream("C:\\Users\\Administrator\\Desktop\\新建文件夹\\books.xml");
-             XMLWriter xmlWriter = null;   //有中文使用formant格式
-             try {
-                 xmlWriter = new XMLWriter(os,format);
-                 xmlWriter.write(document);
-                 xmlWriter.close();
-             } catch (Exception e) {
-                 e.printStackTrace();
-             }
-
-
-         } catch (FileNotFoundException e) {
-             e.printStackTrace();
-         }
+       writeXml.writeXml(document);
      }
 
      public static void addOrRemove(Document document, JSONObject object){
@@ -137,23 +104,7 @@ public class test {
                  newElement.addAttribute("enable",enable);
              }
          }
-         OutputFormat format = OutputFormat.createPrettyPrint();
-         OutputStream os = null;
-         try {
-             os = new FileOutputStream("F:\\powerRouter\\routerConfig.xml");
-             XMLWriter xmlWriter = null;   //有中文使用formant格式
-             try {
-                 xmlWriter = new XMLWriter(os,format);
-                 xmlWriter.write(document);
-                 xmlWriter.close();
-             } catch (Exception e) {
-                 e.printStackTrace();
-             }
-
-
-         } catch (FileNotFoundException e) {
-             e.printStackTrace();
-         }
+        writeXml.writeXml(document);
      }
 
     /**
